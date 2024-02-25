@@ -10,6 +10,10 @@
 }
 
 
+.img-fluid-40 {
+  @include img-fluid-40;
+}
+
 // Image thumbnails
 .img-thumbnail {
   padding: $thumbnail-padding;
@@ -35,6 +39,7 @@
   margin-bottom: ($spacer / 2);
   line-height: 1;
 }
+
 
 .figure-caption {
   font-size: $figure-caption-font-size;
